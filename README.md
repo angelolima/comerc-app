@@ -5,10 +5,10 @@
 
 
 O projeto está rodando com o Laradock, para instanciar o container é necessário acessar a pasta laradock e digite o comando:
-### docker-compose up -d nginx mysql phpmyadmin redis workspace 
+#### > docker-compose up -d nginx mysql phpmyadmin redis workspace 
 
 Após subir o container digite o comando abaixo para acessar o container criado:
-### docker-compose exec workspace bash
+#### > docker-compose exec workspace bash
 
 
 
