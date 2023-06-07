@@ -9,16 +9,13 @@ O projeto está rodando com o Laradock, para instanciar o container é necessár
 
 Após subir o container digite o comando abaixo para acessar o container criado:
 ##### > docker-compose exec workspace bash
+##### > composer install
 
 
 
 ## PHPunit - Testando CRUD
 
-##### > php artisan test
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+##### > php artisan test 
 
 ## License
 
