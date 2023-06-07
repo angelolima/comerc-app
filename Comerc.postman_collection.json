@@ -1,0 +1,338 @@
+{
+	"info": {
+		"_postman_id": "4800562b-666a-4436-853a-764f6bb651b0",
+		"name": "Comerc",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "16815596"
+	},
+	"item": [
+		{
+			"name": "Produto",
+			"item": [
+				{
+					"name": "Listar Produtos",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/api/produto",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"api",
+								"produto"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Inserir Produto",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "nome",
+									"value": "Pen Drive Multi Twist USB 2.0 16GB - PD587",
+									"type": "text"
+								},
+								{
+									"key": "preco",
+									"value": "33.90",
+									"type": "text"
+								},
+								{
+									"key": "foto",
+									"type": "file",
+									"src": "/Users/angelolima/Pictures/Produtos/55647_1557143499_index_gg.jpg"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost/api/produto",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"api",
+								"produto"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Alterar Produto",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "nome",
+									"value": "Nome do Produto Alterado 2",
+									"type": "text"
+								},
+								{
+									"key": "preco",
+									"value": "1244.90",
+									"type": "text"
+								},
+								{
+									"key": "foto",
+									"type": "file",
+									"src": "/Users/angelolima/Pictures/Produtos/placa-de-video-asus-nvidia-dual-rtx-3060-o12g-v2-15-gbps-12gb-gddr6-ray-tracing-dlss-90yv0gb2-m0na10_1623244899_gg.jpg"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost/api/produto/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"api",
+								"produto",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Remover Produto",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/api/produto/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"api",
+								"produto",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Cliente",
+			"item": [
+				{
+					"name": "Listar Clientes",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/api/cliente",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"api",
+								"cliente"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Inserir Cliente",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "nome",
+									"value": "Caramelo Lima",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "emaildocaramelo@domain.com",
+									"type": "text"
+								},
+								{
+									"key": "dataNascimento",
+									"value": "2020-04-22",
+									"type": "text"
+								},
+								{
+									"key": "endereco",
+									"value": "Rua XPTO, 1000",
+									"type": "text"
+								},
+								{
+									"key": "complemento",
+									"value": "Casa",
+									"type": "text"
+								},
+								{
+									"key": "bairro",
+									"value": "Vila da vila",
+									"type": "text"
+								},
+								{
+									"key": "cep",
+									"value": "00000-000",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost/api/cliente",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"api",
+								"cliente"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Alterar Cliente",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "nome",
+									"value": "Caramelo Lima",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "emaildocaramelo@domain.com",
+									"type": "text"
+								},
+								{
+									"key": "dataNascimento",
+									"value": "2020-10-14",
+									"type": "text"
+								},
+								{
+									"key": "endereco",
+									"value": "Rua Descampado, 10",
+									"type": "text"
+								},
+								{
+									"key": "complemento",
+									"value": "Casa 2",
+									"type": "text"
+								},
+								{
+									"key": "bairro",
+									"value": "Vila das Mercês",
+									"type": "text"
+								},
+								{
+									"key": "cep",
+									"value": "04296-090",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost/api/cliente/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"api",
+								"cliente",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Remover Cliente",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/api/produto/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"api",
+								"produto",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Pedidos",
+			"item": [
+				{
+					"name": "Visualizar Pedidos",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Inserir Pedido",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/api/pedido?cliente_id=3&produto_id=2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"api",
+								"pedido"
+							],
+							"query": [
+								{
+									"key": "cliente_id",
+									"value": "3"
+								},
+								{
+									"key": "produto_id",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
