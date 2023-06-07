@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="/.github/home-page-images/laradock-logo.jpg?raw=true" alt="Laradock Logo"/>
+    <img src="https://laradock.io/images/laradock-full-logo.jpg?raw=true" alt="Laradock Logo"/>
 </p>
 ## Sobre o Container Laradock.io
 
